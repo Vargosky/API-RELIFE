@@ -3,11 +3,11 @@ const mongoose = require("mongoose");
 const connection = async ()=>{
 
     const local     =   "mongodb://127.0.0.1:27017/";
-    const remoto    =   ""; 
+    const remoto    =   "mongodb+srv://saremvargas:Sarem1509@cluster0.j4tuv0s.mongodb.net/"; 
 
     const bdName = "mi_redsocial";
 
-    const address = local;  //cambiar  a remoto si trabajamos con mongo en sus servidores
+    const address = remoto;  //cambiar  a remoto si trabajamos con mongo en sus servidores
 
 
     try {
