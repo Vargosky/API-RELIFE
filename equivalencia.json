@@ -1,0 +1,54 @@
+[
+    {
+        "CO2E": 0.5,
+        "material": "papel"
+    },
+    {
+        "CO2E": 0.5,
+        "material": "carton"
+    },
+    {
+        "CO2E": 0.3,
+        "material": "vidrio"
+    },
+    {
+        "CO2E": 1.2,
+        "material": "P-PET"
+    },
+    {
+        "CO2E": 1.5,
+        "material": "P-HDPE"
+    },
+    {
+        "CO2E": 2,
+        "material": "P-LDPE"
+    },
+    {
+        "CO2E": 3,
+        "material": "P-PVC"
+    },
+    {
+        "CO2E": 2,
+        "material": "P-PP"
+    },
+    {
+        "CO2E": 2,
+        "material": "P-PS"
+    },
+    {
+        "CO2E": 14,
+        "material": "neumatico"
+    },
+    {
+        "CO2E": 3,
+        "material": "lubricante"
+    },
+    {
+        "CO2E": 60,
+        "material": "pila"
+    },
+    {
+        "CO2E": 1.5,
+        "material": "aerosol"
+    }
+]
