@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const http = require('http');
 const socketIO = require('socket.io');
-const Message = require('./model/message');
+const Message = require('./model/Message');
 
 // Crear el servidor
 const app = express();
@@ -14,12 +14,14 @@ const io = socketIO(server);
 const port = 3001;
 
 // Configurar CORS
-app.use(
-    cors({
-        origin: '*', // Asegúrate de que esta dirección coincida con la de tu frontend
-        credentials: true,
-    })
-);
+// Middleware para configurar CORS
+app.use(cors({
+    origin: (origin, callback) => {
+        // Permitir cualquier origen
+        callback(null, true);
+    },
+    credentials: true,
+}));
 
 // Convertir todo a JSON
 app.use(express.json());
